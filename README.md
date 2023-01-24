@@ -30,3 +30,49 @@ the base to develop my skills in automated testing in the future.
 3. get the quality base to continue my development in automated testing;
 4. meet future colleagues in the workshop;
 5. get to know and recommend myself to potential employers.
+
+
+# TASK 2: selectors #
+
+## Subtask 1: Searching for selectors on the login pageList all the elements that are on the login page
+
+### *The Login field* ###
+1) //input[@id="login"]
+2) //*[@name="login"]
+3) //input[@class="MuiInputBase-input MuiInput-input"]
+4) //*[@class="MuiInputBase-input MuiInput-input"][@name="login"]
+5) //*[text()="Login"]
+
+### *The Password field* ###
+1) //*[@id="password"]
+2) //input[@name="password"]
+3) //*[@type="password"]
+4) //input[@class="MuiInputBase-input MuiInput-input"]
+5) //*[@class="MuiInputBase-input MuiInput-input"][@name="password"]
+6) //*[@name="password" or @class="MuiInputBase-input MuiInput-input"]
+7) //*[text()="Password"]
+8) //*[contains(text(),"Password")]
+
+### *The Sign in button* ###
+1) //*[@id="__next"]/form/div/div[2]/button
+2) //*[@class="MuiButton-label"]
+3) //*[text()="Sign in"]
+4) //*[contains(text(),"Sign")]
+5) //*[contains(text(),"Sign")][@class="MuiButton-label"]
+
+### *The Language Dropdown button* ###
+1) //*[@id="__next"]/form/div/div[2]/div/div
+2) //input[@class="MuiSelect-nativeInput"]
+3) //*[@role="button"]
+4) //*[@value="en"]
+5) //*[text()="English"]
+6) //*[contains(text(),"English") or @class="MuiSelect-nativeInput"]
+
+### *The Remind password button* ###
+1) //*[@id="__next"]/form/div/div[1]/a
+2) //*[contains(@class, "MuiTypography-root MuiLink")]
+3) //*[text()="Remind password"]
+
+
+
+
